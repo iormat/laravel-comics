@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header .top-bar {
+  padding: 1.2em 0;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+header .container-center {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container-center img {
+  width: 70px;
+  display: block;
+}
+
+header li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+header li a {
+  padding: 40px 0;
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+header li a.active,
+header li a:hover {
+  color: #377AE4;
+  border-bottom: 3px solid #377AE4;
+}
+
+header #jumbo {
+  background-image: url("/img/jumbotron.jpg");
+  background-position: top;
+  background-size: cover;
+  height: 600px;
+  margin-top: 100px;
+}
+
