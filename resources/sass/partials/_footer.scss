@@ -1,0 +1,85 @@
+// FOOTER RULES --------------------
+footer {
+    background-image: url('/img/footer-bg.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+.foot_up {
+    display: flex;
+    & .footup-left {
+        width: 50%;
+        padding: 30px 0;
+        & .footer-nav {
+            display: flex;
+            & h3 {
+                margin: 20px 0;
+                font-size: 1.2rem
+            }
+        }
+    }
+    & nav {
+        margin: 0 30px;
+    }
+    a {
+        text-transform: capitalize;
+        text-decoration: none;
+        color: #878585;
+        font-size:.8rem;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
+
+    & nav ul li {
+        display: grid;
+        grid-template-columns: 1fr;
+        list-style: none;
+    }
+}
+
+.footup-right {
+    background-image: url("/img/dc-logo-bg.png");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+.foot_down {
+    padding: 20px 0;
+    background-color: #303030;
+
+    & .container-center {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row nowrap;
+        align-items: center;
+        button {
+            background-color: transparent;
+            &:hover {
+                background-color: hsl(0, 0%, 50%);
+                cursor: pointer;
+            }
+        }
+        & button a {
+            padding: 10px 15px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        & .social {
+            color: #3874D9;
+            display: flex;
+            align-items: center;
+            & h3 {
+                margin-right: 10px;
+            }
+            & a {
+                margin: 10px;
+            }
+        }
+    }
+}

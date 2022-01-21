@@ -10,7 +10,7 @@
                     <div class="card">
                         <a href="#">
                             <div class="img-window">
-                                <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/BM_56_300-001_HD_5ba137a85c3bf3.33122291.jpg?itok=3FHJQYJZ" alt="Action Comics">
+                                <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX" alt="Action Comics">
                             </div>
                             <h3>Action Comics</h3>
                             <p>$19.99</p>
@@ -21,7 +21,7 @@
                     <div class="card">
                         <a href="#">
                             <div class="img-window">
-                                <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX" alt="American Vampire 1976">
+                                <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2020/09/AV1976_01_300-001_HD_5f738f6e39ddd7.18205602.jpg?itok=VgdYdJ01" alt="American Vampire 1976">
                             </div>
                             <h3>American Vampire 1976</h3>
                             <p>$3.99</p>
@@ -32,7 +32,7 @@
                     <div class="card">
                         <a href="#">
                             <div class="img-window">
-                                <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2020/09/AV1976_01_300-001_HD_5f738f6e39ddd7.18205602.jpg?itok=VgdYdJ01" alt="Aquaman">
+                                <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/gn-covers/2018/08/AQMv4_UW_153-001_HD_5b7efa1745a9b8.08589135.jpg?itok=HPTtnrsb" alt="Aquaman">
                             </div>
                             <h3>Aquaman</h3>
                             <p>$16.99</p>
@@ -43,7 +43,7 @@
                     <div class="card">
                         <a href="#">
                             <div class="img-window">
-                                <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/gn-covers/2018/08/AQMv4_UW_153-001_HD_5b7efa1745a9b8.08589135.jpg?itok=HPTtnrsb" alt="Batgirl">
+                                <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/06/batgirl_v5_1_5b23e1f1124941.50950783.jpg?itok=VnrJah76" alt="Batgirl">
                             </div>
                             <h3>Batgirl</h3>
                             <p>$2.99</p>
@@ -54,7 +54,7 @@
                     <div class="card">
                         <a href="#">
                             <div class="img-window">
-                                <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/06/batgirl_v5_1_5b23e1f1124941.50950783.jpg?itok=VnrJah76" alt="Batman">
+                                <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/BM_56_300-001_HD_5ba137a85c3bf3.33122291.jpg?itok=3FHJQYJZ" alt="Batman">
                             </div>
                             <h3>Batman</h3>
                             <p>$3.99</p>
