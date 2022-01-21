@@ -62,6 +62,128 @@ header #jumbo {
   margin-top: 100px;
 }
 
+main {
+  background-color: #000;
+  padding-top: 30px;
+}
+
+#comics {
+  margin: 3rem 0;
+  color: #fff;
+}
+
+#comics h2 {
+  text-transform: uppercase;
+  background-color: #3880F1;
+  margin-left: 10%;
+  padding: 0.25em 0.75em;
+  box-shadow: 5px 0 5px rgba(1, 1, 1, 0.397);
+  display: inline;
+  position: relative;
+  bottom: 3rem;
+  z-index: 1;
+}
+
+#comics #comics-cards {
+  padding: 30px 0;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+}
+
+#comics #comics-cards li {
+  list-style-type: none;
+  width: calc(16.6666666667% - 20px);
+  min-width: 170px;
+  padding: 10px;
+}
+
+#comics #comics-cards .card a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#comics #comics-cards .card a .img-window {
+  height: 200px;
+  overflow: hidden;
+}
+
+#comics #comics-cards .card a .img-window img {
+  width: 100%;
+}
+
+#comics #comics-cards .card a .img-window img:hover {
+  transform: scale(1.2);
+  opacity: 0.5;
+  transition: linear 0.2s;
+}
+
+#comics #comics-cards .card a h3 {
+  font-size: 1rem;
+}
+
+#comics #comics-cards .card a p {
+  font-size: 0.8rem;
+  line-break: auto;
+}
+
+#link-cards {
+  background-color: #3880F1;
+}
+
+#link-cards ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#link-cards ul li {
+  list-style: none;
+}
+
+#link-cards ul li a {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 0;
+}
+
+#link-cards ul li a img {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+
+#link-cards ul li a p {
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.see-more {
+  text-align: center;
+}
+
+.see-more button {
+  padding: 8px 0;
+  border: 0;
+  background-color: #3880F1;
+}
+
+.see-more button:hover {
+  background-color: rgba(186, 186, 186, 0.397);
+}
+
+.see-more button a {
+  padding: 8px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 footer {
   background-image: url("/img/footer-bg.jpg");
   background-size: cover;
