@@ -1,7 +1,7 @@
 <header>
     <div class="top-bar">
         <div class="container-center">
-            <img src="{{asset('img/dc-logo.png')}}" alt="">
+            <img src="{{asset('/storage/assets/dc-logo.png')}}" alt="">
             <section class="header-nav">
                 <nav>
                     <ul>

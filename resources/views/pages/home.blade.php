@@ -148,31 +148,31 @@
             <ul class="container-center">
                 <li>
                     <a href="#">
-                        <img src="{{ asset('img/buy-comics-digital-comics.png') }}" alt="digital comicse">
+                        <img src="{{ asset('/storage/assets/buy-comics-digital-comics.png') }}" alt="digital comicse">
                         <p>digital comics</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ asset('img/buy-comics-merchandise.png') }}" alt="subscription">
+                        <img src="{{ asset('/storage/assets/buy-comics-merchandise.png') }}" alt="subscription">
                         <p>subscription</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ asset('img/buy-comics-shop-locator.png') }}" alt="comic shop locator">
+                        <img src="{{ asset('/storage/assets/buy-comics-shop-locator.png') }}" alt="comic shop locator">
                         <p>comic shop locator</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ asset('img/buy-dc-power-visa.svg') }}" alt="dc power visa">
+                        <img src="{{ asset('/storage/assets/buy-dc-power-visa.svg') }}" alt="dc power visa">
                         <p>dc power visa</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ asset('img/buy-comics-digital-comics.png') }}" alt="digital comicse">
+                        <img src="{{ asset('/storage/assets/buy-comics-digital-comics.png') }}" alt="digital comicse">
                         <p>digital comics</p>
                     </a>
                 </li>

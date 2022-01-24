@@ -78,19 +78,19 @@
                 <h3>FOLLOW US</h3>
                 <!-- social links icons -->
                 <a href="#">
-                    <img src="{{asset('img/footer-facebook.png')}}" alt="facebook logo">
+                    <img src="{{asset('/storage/assets/footer-facebook.png')}}" alt="facebook logo">
                 </a>
                 <a href="#">
-                    <img src="{{asset('img/footer-twitter.png')}}" alt="facebook logo">
+                    <img src="{{asset('/storage/assets/footer-twitter.png')}}" alt="facebook logo">
                 </a>
                 <a href="#">
-                    <img src="{{asset('img/footer-youtube.png')}}" alt="facebook logo">
+                    <img src="{{asset('/storage/assets/footer-youtube.png')}}" alt="facebook logo">
                 </a>
                 <a href="#">
-                    <img src="{{asset('img/footer-pinterest.png')}}" alt="facebook logo">
+                    <img src="{{asset('/storage/assets/footer-pinterest.png')}}" alt="facebook logo">
                 </a>
                 <a href="#">
-                    <img src="{{asset('img/footer-periscope.png')}}" alt="facebook logo">
+                    <img src="{{asset('/storage/assets/footer-periscope.png')}}" alt="facebook logo">
                 </a>
             </section>
         </div>

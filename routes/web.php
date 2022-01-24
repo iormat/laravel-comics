@@ -6,7 +6,7 @@ Route::get('/', function () {
     return view('layouts.main-layout');
 }) -> name('main-layout');
 
-Route::get('home', function () {
+Route::get('/', function () {
     return view('pages.home');
 }) -> name('home'); 
 

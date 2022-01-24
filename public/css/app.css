@@ -55,7 +55,7 @@ header li a:hover {
 }
 
 header #jumbo {
-  background-image: url("/img/jumbotron.jpg");
+  background-image: url("/storage/assets/jumbotron.jpg");
   background-position: top;
   background-size: cover;
   height: 600px;
@@ -142,6 +142,7 @@ main {
 }
 
 #link-cards ul li a {
+  text-transform: uppercase;
   width: 20%;
   display: flex;
   align-items: center;
@@ -185,7 +186,7 @@ main {
 }
 
 footer {
-  background-image: url("/img/footer-bg.jpg");
+  background-image: url("/storage/assets/footer-bg.jpg");
   background-size: cover;
   color: #fff;
 }
@@ -230,7 +231,7 @@ footer {
 }
 
 .footup-right {
-  background-image: url("/img/dc-logo-bg.png");
+  background-image: url("/storage/assets/dc-logo-bg.png");
   background-size: cover;
   background-position: center;
   width: 50%;
