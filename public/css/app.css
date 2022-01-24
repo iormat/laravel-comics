@@ -62,13 +62,9 @@ header #jumbo {
   margin-top: 100px;
 }
 
-main {
-  background-color: #000;
-  padding-top: 30px;
-}
-
 #comics {
-  margin: 3rem 0;
+  padding: 5rem 0;
+  background-color: #000;
   color: #fff;
 }
 
@@ -186,6 +182,87 @@ main {
   color: #fff;
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+main .comic-banner {
+  height: 4rem;
+  background-color: #3874D9;
+  position: relative;
+}
+
+main .comic-banner img {
+  width: 170px;
+  border: 1px solid #fff;
+  position: absolute;
+  bottom: 1rem;
+  left: 20%;
+}
+
+main #comic-details {
+  margin: 4rem auto;
+  width: 60%;
+  display: grid;
+  grid-template-columns: 3fr 1.5fr;
+  gap: 3rem;
+}
+
+main #comic-details h2 {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+main #comic-details .comic-info {
+  padding-left: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  background-color: #70B864;
+}
+
+main #comic-details .comic-info .availability {
+  display: flex;
+  align-items: center;
+}
+
+main #comic-details .comic-info .availability .check-avaiable {
+  padding: 0.5rem 2rem;
+  border-left: 1px solid #000;
+  font-size: 0.8rem;
+  margin-left: 2rem;
+}
+
+main #comic-details .comic-details_ads h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+main #comic-details .comic-details_ads .ad-container {
+  padding: 0.5rem;
+  width: 100%;
+  aspect-ratio: 6/5;
+  background-image: url("https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+main #comic-details .comic-details_ads .ad-container button {
+  background-color: #FBE779;
+  border: 0;
+  padding: 0.5em 0.75em;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.5rem;
+}
+
+main #comic-details .comic-details_ads .ad-container button a {
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  padding: 0.5em 0.75em;
 }
 
 footer {
