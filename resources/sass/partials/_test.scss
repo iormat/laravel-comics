@@ -1,5 +1,6 @@
 // MAIN-TEST RULES
 main {
+    // test top section
     .comic-banner {
         height: 4rem;
         background-color: #3874D9;
@@ -72,6 +73,42 @@ main {
                         padding: .5em .75em;
                     }
                 }
+            }
+        }
+    }
+
+    //  test bottom section
+    
+    .bottom-test {
+        background-color: #F6F6F6;
+        .comic_more-details {
+            padding: 2rem 0;
+            width: 60%;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+        }
+        h3 {
+            font-size: 1.4rem;
+            margin-bottom: 2em;
+            display: block;
+        }
+        .talent, .specs {
+            & > div {
+                padding: 1rem 0;
+                border-top: 1px solid #cecece;
+                &:last-child {
+                    border-bottom: 1px solid #cecece;
+                }
+            }
+        }
+        .specs_info {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            font-size: .8rem;
+            h5 {
+                font-size: 1rem;
             }
         }
     }

@@ -35,5 +35,37 @@
                 </div>
             </div>
         </section>
+        {{-- bottom test section --}}
+        <section class="bottom-test">
+            <div class="comic_more-details">
+                <div class="talent">
+                    <h3>Talent</h3>
+                    <div class="specs_info">
+                        <h5>Art by:</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum iusto ipsum odit quod libero voluptatum dicta repellendus excepturi? Nesciunt, libero?</p>
+                    </div>
+                    <div class="specs_info">
+                        <h5>Written by:</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum porro similique ab, soluta saepe nesciunt omnis perspiciatis libero maiores quas quasi vel nobis dicta nam iste? Ducimus iste exercitationem possimus.</p>
+                    </div>
+                </div>
+                <div class="specs">
+                    <h3>Specs</h3>
+                    <div class="specs_info">
+                        <h5>Series:</h5>
+                        <p>ACTION COMICS</p>
+                    </div>
+                    <div class="specs_info">
+                        <h5>U.S. Price:</h5>
+                        <p>$ 19.99</p>
+                    </div>
+
+                    <div class="specs_info">
+                        <h5>On Sale Date:</h5>
+                        <p>Oct 02 2018</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 @endsection

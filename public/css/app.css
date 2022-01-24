@@ -265,6 +265,46 @@ main #comic-details .comic-details_ads .ad-container button a {
   padding: 0.5em 0.75em;
 }
 
+main .bottom-test {
+  background-color: #F6F6F6;
+}
+
+main .bottom-test .comic_more-details {
+  padding: 2rem 0;
+  width: 60%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+main .bottom-test h3 {
+  font-size: 1.4rem;
+  margin-bottom: 2em;
+  display: block;
+}
+
+main .bottom-test .talent > div,
+main .bottom-test .specs > div {
+  padding: 1rem 0;
+  border-top: 1px solid #cecece;
+}
+
+main .bottom-test .talent > div:last-child,
+main .bottom-test .specs > div:last-child {
+  border-bottom: 1px solid #cecece;
+}
+
+main .bottom-test .specs_info {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  font-size: 0.8rem;
+}
+
+main .bottom-test .specs_info h5 {
+  font-size: 1rem;
+}
+
 footer {
   background-image: url("/storage/assets/footer-bg.jpg");
   background-size: cover;
