@@ -86,6 +86,9 @@ main {
 
 #comics #comics-cards {
   padding: 30px 0;
+}
+
+#comics #comics-cards ul {
   display: flex;
   flex-flow: row wrap;
   gap: 1rem;
