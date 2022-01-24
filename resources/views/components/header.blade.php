@@ -1,7 +1,9 @@
 <header>
     <div class="top-bar">
         <div class="container-center">
-            <img src="{{asset('/storage/assets/dc-logo.png')}}" alt="">
+            <a href="{{ route('home') }}">
+                <img src="{{asset('/storage/assets/dc-logo.png')}}" alt="">
+            </a>
             <section class="header-nav">
                 <nav>
                     <ul>
